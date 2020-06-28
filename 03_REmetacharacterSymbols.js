@@ -16,12 +16,17 @@ re = /h*llo/i; // Matches any one character zero or more times
 re = /gre?a?y/i; // Optional Cahracter
 re = /gre?a?y\?/i; // Escape Cahracter
 
+// Brackets [] - Character sets
+re = /gr[ae]y/i; // Must be an an a or an e
+re = /[gf]ray/i; // Must be an an a or an e
+
 // String to Match
 // const str = "Hello World";
 // const str = "Heello";
-const str = "Grey?";
+// const str = "Grey?";
+const str = "Gray";
 
-// LOg Results
+// Log Results
 const result = re.exec(str);
 console.log(result);
 
