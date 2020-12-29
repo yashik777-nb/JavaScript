@@ -13,9 +13,9 @@ val = num1 % num2;
 val = Math.PI;
 val = Math.E;
 
-val = Math.round(2.8);
-val = Math.ceil(2.8);
-val = Math.floor(2.8);
+val = Math.round(-2.8);
+val = Math.ceil(-2.8);
+val = Math.floor(-2.8);
 val = Math.sqrt(64);
 val = Math.abs(-2.8);
 val = Math.pow(8, 2);

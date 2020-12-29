@@ -21,6 +21,7 @@ val = numbers.length;
 
 // Check if it is an array
 val = Array.isArray(numbers);
+console.log(val);
 
 // Single Value
 val = numbers[3];
@@ -35,38 +36,50 @@ val = numbers.indexOf(1, 2);
 // Mutating Arrays
 // Add onto end
 numbers.push(250);
+console.log(numbers);
 
 // Add to front
 numbers.unshift(120);
+console.log(numbers);
 
 // Take off from End
 numbers.pop();
+console.log(numbers);
 
 // Take off from front
 numbers.shift();
+console.log(numbers);
 
-// Splive values
+// Splice values
 numbers.splice(1, 3);
+console.log(numbers);
 
 // Reverse
 numbers.reverse();
 
 // Concantenate Arrays
 val = numbers.concat(numbers2);
+console.log(val);
 
 // Sort
 val = fruit.sort();
 val = numbers.sort();
 
 // Use compare
-
+console.log("Compare");
+console.log(val);
+val = numbers.sort();
+console.log(val);
+// Only if numbers are sorted as string, we need to use a compare funtion.
 val = numbers.sort(function (x, y) {
   return x - y;
 });
+console.log(val);
 
 val = numbers.sort(function (x, y) {
   return y - x;
 });
+console.log(val);
 
 // Find
 function under5(x) {
@@ -79,5 +92,5 @@ function over5(x) {
 val = numbers.find(under5);
 val = numbers.find(over5);
 
-console.log(numbers);
-console.log(val);
+// console.log(numbers);
+// console.log(val);

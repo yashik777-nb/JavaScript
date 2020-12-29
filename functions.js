@@ -23,7 +23,7 @@ console.log(square(8));
 
 const toDo = {
   add: function () {
-    console.log("Add tofo...");
+    console.log("Add todo...");
   },
   edit: function (id) {
     console.log("Edit " + id);

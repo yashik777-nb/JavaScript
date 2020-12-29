@@ -46,12 +46,12 @@
 // var firstname; // Not recommended
 
 // Let
-// let name;
-// console.log(name);
-// name = "Yash IK";
-// console.log(name);
-// name = "IK Yash";
-// console.log(name);
+let name = "YAsh";
+console.log(name);
+name = "Yash IK";
+console.log(name);
+name = "IK Yash";
+console.log(name);
 
 // // const
 // const name = "Yash";
@@ -73,7 +73,7 @@
 // console.log(numbers);
 
 // Primitive Types
-const name = "Yash";
+// const name = "Yash";
 const age = "12";
 const bool = true;
 const car = null;
@@ -84,7 +84,7 @@ console.log(typeof test);
 console.log(typeof car);
 console.log(typeof bool);
 console.log(typeof age);
-console.log(typeof name);
+console.log(typeof name); 
 
 // Refernce Types - Objects
 // Array
