@@ -19,7 +19,7 @@ console.log(set1, set1.size);
 // Check for values
 console.log("HAS", set1.has(100));
 console.log("HAS", set1.has(50 + 50));
-console.log("HAS", set1.has({ name: "Yash" })); // It will be false as teh reference is being checked.
+console.log("HAS", set1.has({ name: "Yash" })); // It will be false as the reference is being checked.
 
 // Delete from Set
 set1.delete(100);

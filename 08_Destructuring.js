@@ -47,5 +47,5 @@ const person7 = {
 //   gender1 = person7.gender;
 
 // New ES6 Des
-const { name, age, city, sayHello } = person7;
-console.log(name, age, city, sayHello());
+const { name, age, city, sayHello, gender } = person7;
+console.log(name, age, city, gender, sayHello());
