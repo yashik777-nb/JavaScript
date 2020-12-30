@@ -2,7 +2,7 @@ const person = {
   firstname: "Steve",
   lastname: "Smith",
   age: 30,
-  email: `${firstname}.${lastname}@email.com`,
+  // email: `${firstname}.${lastname}@email.com`,
   hobbies: ["music", "sports"],
   address: {
     city: "Leamington",

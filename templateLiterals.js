@@ -36,4 +36,4 @@ html = `
     </ul>
 `;
 
-document.body.innerHTML = html;
+document.body.innerHTML += html;

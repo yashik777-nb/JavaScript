@@ -6,8 +6,8 @@ window.console.log(123);
 // window.alert("Hello World");
 
 // Prompt
-// const input = prompt();
-// alert(input);
+const input = prompt();
+alert(input);
 
 // Confirm
 // if (confirm("Are You Sure")) {
@@ -36,6 +36,7 @@ val = window.location.hostname;
 val = window.location.port;
 val = window.location.href;
 val = window.location.search;
+console.log(window);
 
 // Redirect
 // window.location.href = "https://www.google.com";

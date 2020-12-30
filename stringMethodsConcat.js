@@ -24,7 +24,7 @@ val = firstName.length;
 // Conact
 val = firstName.concat(" ", lastName);
 
-// Uppercasr and Lowercase
+// Uppercase and Lowercase
 val = val.toUpperCase();
 val = val.toLowerCase();
 
